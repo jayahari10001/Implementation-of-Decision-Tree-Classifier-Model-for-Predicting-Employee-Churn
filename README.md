@@ -1,11 +1,25 @@
+Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn
+AIM:
+To write a program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
+
+Equipments Required:
+Hardware – PCs
+Anaconda – Python 3.7 Installation / Jupyter notebook
+Algorithm
+Import the required libraries.
+Upload and read the dataset.
+Check for any null values using the isnull() function.
+From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
+Find the accuracy of the model and predict the required values by importing the required module from sklearn.
+Program:
 
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: JAYAHARI E
-RegisterNumber: 212221040065
+Developed by: Nithish Kumar P
+RegisterNumber: 212221040115
 
 
 import pandas as pd
-data=pd.read_csv("/content/Employee(1).csv")
+data=pd.read_csv("/content/Employee.csv")
 
 print("data.head():")
 data.head()
@@ -47,3 +61,22 @@ accuracy
 
 print("data prediction:")
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
+Output:
+Screenshot (63)
+
+Screenshot (64)
+
+Screenshot (65)
+
+Screenshot (66)
+
+Screenshot (67)
+
+Screenshot (68)
+
+Screenshot (69)
+
+Screenshot (70)
+
+Result:
+Thus the program to implement the Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
